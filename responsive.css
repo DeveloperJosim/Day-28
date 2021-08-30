@@ -1,0 +1,406 @@
+@media (max-width: 1200px) {
+    .header-logo {
+        padding-left: 25px;
+        box-sizing: border-box;
+    }
+    .video-discription {
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 1176px) {
+    .header-logo {
+        width: 27%;
+        padding-left: 25px;
+        box-sizing: border-box;
+    }
+    .header-menu {
+        width: 45%;
+        text-align: center;
+    }
+    .header-button {
+        width: 28%;
+        padding-right: 90px;
+        box-sizing: border-box;
+    }
+    .primary-menu ul li a {
+        padding: 0px 10px;
+        font-size: 20px;
+    }
+    .banner-bottom {
+        padding: 50px 15px;
+    }
+    .services-items {
+        padding: 0px 20px;
+        box-sizing: border-box;
+    }
+    .p-btn .default-btn {
+        margin: 30px;
+    }
+    .p-content li span {
+        font-size: 26px;
+        margin-right: 10px;
+    }
+    .member {
+        margin-right: 25px;
+    }
+    .section-title {
+        padding-bottom: 0px;
+    }
+    .blog-post-item img {
+        width: 100%;
+        margin-bottom: -20px;
+    }
+    .b-p-content {
+        width: 100%;
+        text-align: center;
+    }
+    .t-item {
+        margin-right: 37px;
+    }
+    .section-title h2 {
+        margin-bottom: 25px;
+    }
+}
+
+
+@media (max-width: 1050px) {
+    .logo img {
+        height: 40px;
+    }
+    .logo span {
+        font-size: 20px;
+    }
+    .primary-menu ul li a {
+        padding: 0px 10px;
+    }
+    .header-btn {
+        padding: 5px 20px;
+    }
+    .section-title h1 {
+        font-size: 43px;
+        margin: 15px 0;
+        font-weight: 600;
+    }
+    .video-discription {
+        width: 48%;
+        padding-right: 10px;
+    }
+    .service-box {
+        margin-right: 25px;
+    }
+    .p-heading h1 {
+        font-size: 45px;
+        padding: 20px 0;
+    }
+    .p-heading p {
+        font-size: 18px;
+    }
+    .p-content ul li {
+        padding: 10px 0;
+        font-size: 20px;
+    }
+    .p-content li span {
+        font-size: 25px;
+    }
+    .member h4 {
+        font-size: 22px;
+        padding: 10px;
+    }
+    .newslatter-section {
+        padding: 50px 0;
+    }
+    .section-title p {
+        padding: 0px 0;
+    }
+
+}
+
+
+
+.primary-menu span{
+    display: none;
+}
+input.mobail-menu-chck {
+    width: 0;
+    height: 0;
+    opacity: 0;
+    position: absolute;
+}   
+    .service-box:nth-child(3n+3){
+    margin-right: 0;
+}
+
+
+
+@media (max-width: 992px) {
+
+
+    .hrader-section {
+        position: relative;
+        margin-bottom: -70px;
+    }
+    .header-logo {
+        width: 30%;
+    }
+    .header-menu {
+        width: 54%;
+    }
+    .header-btn {
+        padding: 5px 15px;
+    }
+    .header-button {
+        width: 200px;
+        position: absolute;
+        right: 0;
+        top: 40px;
+        padding-right: 40px;
+    }
+
+
+    .primary-menu span{
+        display: block;
+    }
+    .header-logo {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+        padding-left: 0;
+    }
+    .logo img {
+        float: inherit;
+    }
+    .logo span {
+        position: relative;
+        top: -10px;
+    }
+    .header-menu {
+        width: 100%;
+    }
+    .primary-menu ul{
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+    }
+    .primary-menu .mobail-menu-chck:checked ~ ul{
+        opacity: 1;
+        visibility: visible;
+        height: 100%;
+    }
+    .primary-menu ul li {
+        display: block;
+        text-align: left;
+        left: 35px;
+    }
+    .primary-menu ul li a {
+        line-height: 45px;
+    }
+    .primary-menu ul li ul li a{
+        line-height: 35px;
+    }
+    .primary-menu ul li ul li {
+        margin-left: 145px;
+        position: relative;
+        top: -35px;
+        background: #fff;
+    }
+    input.mobail-menu-chck {
+        left: 18px;
+        top: 60px;
+        width: 32px;
+        height: 25px;
+        cursor: pointer;
+        position: absolute;
+        opacity: 0;
+    }
+    .primary-menu span {
+        position: absolute;
+        top: 53px;
+        left: 20px;
+        display: block;
+        color: #6278df;
+        font-size: 32px;
+        pointer-events: none;
+    }
+    .banner-content h2 {
+        font-size: 45px;
+        font-weight: 500;
+        margin: 25px 0px;
+    }
+    .banner-content h3 {
+        font-size: 24px;
+    }
+    .banner-section {
+        padding: 160px 0;
+    }
+    .video-discription h3 {
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+    .service-box {
+        width: 48%;
+    }
+    .service-box:nth-child(3n+3){
+        margin-right: 0;
+    }
+    .service-box:nth-child(2n+2){
+        margin-right: 0;
+    }
+    .service-box:nth-child(1n+1){
+        margin-right: 0;
+    }
+    .pricing-table-item {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 25px;
+    }
+    .default-btn {
+        font-size: 25px;
+        padding: 15px 0px;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .member {
+        margin-right: 15px;
+        margin-bottom: 15px;
+        width: 48%;
+    }
+    .section-title p {
+        padding: 0px 0;
+    }
+    .section-title.newslatter-title h2 {
+        margin-top: 15px;
+    }
+    .newslatter-from {
+        margin-top: 30px;
+    }
+    .section-title h2 {
+        font-size: 35px;
+    }
+
+}
+
+
+
+
+@media (max-width: 768px) {
+    .banner-section {
+        padding: 120px 0;
+        margin-right: 0;
+    }
+    .video-left {
+        width: 100%;
+    }
+    .video-discription {
+        width: 100%;
+        margin-top: 20px;
+    }.video-discription {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .video-discription h3 {
+        font-size: 46px;
+        text-align: center;
+        padding: 0 40px;
+    }
+    .video-discription p {
+        text-align: center;
+    }
+    .section-title h1 {
+        font-size: 30px;
+        margin: 10px 0;
+    }
+    .section-title p {
+        font-size: 20px;
+        padding: 10px 0;
+    }
+    .service-box {
+        width: 100%;
+    }
+    .section-title h2 {
+        font-size: 30px;
+    }
+    .section-title p {
+        font-size: 15px;
+        padding: 5px 25px;
+    }
+    .member {
+        margin-right: 0;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .member h4 {
+        font-size: 30px;
+        text-align: center;
+    }    
+    .member p {
+        font-size: 30px;
+        text-align: center;
+    }
+    .section-title p {
+        font-size: 20px;
+        padding: 0px;
+    }
+    .default-input {
+        width: 90%;
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    button.submit-btn {
+        margin-left: 0px;
+        font-size: 25px;
+        width: 90%;
+    }
+    .b-heading {
+        width: 100%;
+    }
+    .b-heading h2 {
+        font-size: 35px;
+    }
+    .b-content {
+        width: 100%;
+        margin-top: 15px;
+    }
+    .blog-post-item {
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+        margin-top: 25px; 
+    }
+    .b-p-content h3 {
+        font-size: 30px;
+    }
+    .blog-title {
+        text-align: center;
+    }
+    .blog-section {
+        padding: 30px 0;
+    }
+    .t-item {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .testimonial-section {
+        padding: 35px 0;
+    }
+    .contact-map {
+        width: 100%;
+    }
+    .contact-from {
+        width: 100%;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .default-input {
+        width: 100%;
+    }
+    button.submit-btn {
+        width: 100%;
+    }
+    .footer-section {
+        margin-top: 0px;
+    
+}
+
+
+
